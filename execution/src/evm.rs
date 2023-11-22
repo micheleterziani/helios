@@ -7,7 +7,7 @@ use eyre::{Report, Result};
 use futures::future::join_all;
 use revm::{
     primitives::{
-        AccountInfo, Bytecode, Env, ExecutionResult, ResultAndState, TransactTo, B256, U256,
+        AccountInfo, Bytecode, Env, ExecutionResult, ResultAndState, TransactTo, B160, B256, U256,
     },
     Database, EVM,
 };
